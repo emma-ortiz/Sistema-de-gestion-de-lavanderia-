@@ -114,7 +114,7 @@ class ReporteOperacional(models.Model):
         return f"Reporte {self.id_reporte} - {self.fecha_reporte}"
 ```
 
-
+# MySQL 
 ```sql
 cliente_lavanderia {
     id_cliente integer pk increments unique
